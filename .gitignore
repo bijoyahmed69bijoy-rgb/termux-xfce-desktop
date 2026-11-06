@@ -1,0 +1,8 @@
+*.log
+*.pid
+*.bak
+.DS_Store
+.vnc/
+.Xauthority
+.ICEauthority
+__pycache__/

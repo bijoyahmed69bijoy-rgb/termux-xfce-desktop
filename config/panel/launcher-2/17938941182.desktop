@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Firefox
+Comment=Web Browser
+Exec=firefox
+Icon=firefox
+Terminal=false
+Categories=Network;WebBrowser;
+X-XFCE-Source=file:///data/data/com.termux/files/home/.local/share/applications/firefox.desktop

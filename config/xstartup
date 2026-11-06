@@ -1,0 +1,5 @@
+#!/data/data/com.termux/files/usr/bin/bash
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+export DISPLAY="${DISPLAY:-:1}"
+exec dbus-launch --exit-with-session xfce4-session
