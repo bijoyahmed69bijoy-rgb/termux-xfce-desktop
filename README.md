@@ -57,9 +57,9 @@ Requirements
 - Sufficient free storage space
 
 No root access is required.
-
+***
 Installation Guide
-
+***
 Step 1: Install Termux
 
 Install Termux from a trusted source:
@@ -68,29 +68,27 @@ Install Termux from a trusted source:
 - "Termux on GitHub" (https://github.com/termux/termux-app)
 
 Open Termux and update its packages:
-
+```
 pkg update && pkg upgrade -y
-
+```
 Step 2: Install Git
-
+```
 pkg install git -y
-
+```
 Step 3: Clone This Repository
-
-Replace "bijoyahmed69bijoy-rgb" with the GitHub username that owns this repository.
-
+```
 git clone https://github.com/bijoyahmed69bijoy-rgb/termux-xfce-desktop.git
-
+```
 Enter the project directory:
-
+```
 cd termux-xfce-desktop
-
+```
 Step 4: Install XFCE Desktop
 
 Run:
-
+```
 bash install.sh --apply-defaults
-
+```
 The installer will:
 
 1. Enable the Termux X11 repository.
@@ -105,19 +103,19 @@ Installation time depends on your internet connection and device.
 Step 5: Set VNC Password
 
 On the first setup, run:
-
+```
 vncpasswd
-
+```
 Create a password for your VNC connection.
 
 Step 6: Start the Desktop
-
+```
 bash start.sh
-
+```
 The VNC server will start on:
-
+```
 127.0.0.1:5901
-
+```
 Step 7: Connect Using VNC Viewer
 
 1. Install a VNC Viewer application.
@@ -130,7 +128,7 @@ Step 7: Connect Using VNC Viewer
 5. Connect using the password you created.
 
 Your XFCE desktop should now appear.
-
+~~~~
 Desktop Controls
 
 Start Desktop
@@ -146,9 +144,9 @@ Reapply Desktop Configuration
 bash install.sh --apply-defaults
 
 Reapplying the configuration creates a backup of existing settings first.
-
+~~~~
 Project Structure
-
+```
 termux-xfce-desktop/
 │
 ├── config/
@@ -161,7 +159,7 @@ termux-xfce-desktop/
 ├── stop.sh
 ├── README.md
 └── .gitignore
-
+```
 Important Notes
 
 - This project is designed for Termux.
